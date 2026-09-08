@@ -25,9 +25,13 @@ jobs:
 
       - name: Build application
         run: python build.py
-
+ 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-        name: app
-        path: app.zip  
+          name: app
+          path: app.zip
+
+      - name: Run tests
+      - name: Build application
+      - name: Upload artifact
